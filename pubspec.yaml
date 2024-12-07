@@ -1,0 +1,57 @@
+name: food_delivery_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.16
+  flutter_screenutil: ^5.9.3
+  device_preview: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: Gilroy
+      fonts:
+        - asset: assets/fonts/Gilroy-Regular.ttf
+        - asset: assets/fonts/Gilroy-Medium.ttf
+        - asset: assets/fonts/Gilroy-Bold.ttf
+        - asset: assets/fonts/Gilroy-SemiBold.ttf
+        - asset: assets/fonts/Gilroy-Light.ttf
+        - asset: assets/fonts/Gilroy-UltraLight.ttf
+        - asset: assets/fonts/Gilroy-Thin.ttf
+
+    # /home/ghost/Downloads/gilroy/Gilroy-Black.ttf
+    #  /home/ghost/Downloads/gilroy/Gilroy-BlackItalic.ttf
+    #  /home/ghost/Downloads/gilroy/Gilroy-Bold.ttf
+    #   /home/ghost/Downloads/gilroy/Gilroy-BoldItalic.ttf
+    #    /home/ghost/Downloads/gilroy/Gilroy-ExtraBold.ttf
+    #     /home/ghost/Downloads/gilroy/Gilroy-ExtraBoldItalic.ttf
+    #      /home/ghost/Downloads/gilroy/Gilroy-Heavy.ttf
+    #       /home/ghost/Downloads/gilroy/Gilroy-HeavyItalic.ttf
+    #        /home/ghost/Downloads/gilroy/Gilroy-Light.ttf
+    #         /home/ghost/Downloads/gilroy/Gilroy-LightItalic.ttf
+    #          /home/ghost/Downloads/gilroy/Gilroy-Medium.ttf
+    #           /home/ghost/Downloads/gilroy/Gilroy-MediumItalic.ttf
+    # /home/ghost/Downloads/gilroy/Gilroy-Regular.ttf
+    # /home/ghost/Downloads/gilroy/Gilroy-RegularItalic.ttf
+    # /home/ghost/Downloads/gilroy/Gilroy-SemiBold.ttf
+    # /home/ghost/Downloads/gilroy/Gilroy-SemiBoldItalic.ttf
+    # /home/ghost/Downloads/gilroy/Gilroy-Thin.ttf
+    # /home/ghost/Downloads/gilroy/Gilroy-ThinItalic.ttf
+    # /home/ghost/Downloads/gilroy/Gilroy-UltraLight.ttf 
+    # /home/ghost/Downloads/gilroy/Gilroy-UltraLightItalic.ttf
